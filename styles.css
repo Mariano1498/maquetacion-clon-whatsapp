@@ -201,3 +201,46 @@ aside header {
     align-self: flex-end;
 }
 
+footer form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    background-color: var(--grey-200);
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+footer button{
+    height: 70%;
+    border: none;
+    border-radius: 30px;
+    transition: opacity ease .2s;
+}
+
+footer button:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+footer button svg{
+    width: 22px;
+}
+
+footer form textarea{
+    resize: none;
+    width:100%;
+    height: 70%;
+    padding: 10px;
+    border: none;
+    display: flex;
+    background-color: var(--grey-300);
+    border-radius: 30px;
+    outline: none;
+    font-size: 1em;
+}
+
+.send{
+    background-color: var(--green-400);
+}
