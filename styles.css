@@ -73,7 +73,7 @@ aside header {
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  background-color: var(--grey-800);
+  background-color: var(--grey-700);
   color: var(--grey-300);
   transition: transform .2s;
 }
