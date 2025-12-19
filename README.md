@@ -1,9 +1,9 @@
 # Maquetacion UI estilo Whatsapp
 el proyecto consiste en hacer una interfaz usando lo aprendido en HTML y CSS, la interfaz contiene un aside con la lista de chats y tiene responsive design para distintos dipositivos
 ## archivos del proyecto
-/index.html
-/styles.css
-/README.md
+- /index.html
+- /styles.css
+- /README.md
 
 ### Instrucciones de uso
 Abrir index.html en cualquier navegador
