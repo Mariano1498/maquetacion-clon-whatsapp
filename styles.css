@@ -17,3 +17,91 @@
   --green-100: #d3c6f8;
   --primary-font: "Montserrat", sans-serif;
 }
+
+body {
+  background-color: var(--primary-color);
+  padding: 40px;
+}
+
+.app {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: 100vh;
+  overflow: hidden;
+}
+
+aside {
+  background-color: var(--grey-900);
+  color: white;
+}
+
+aside header {
+  background-color: var(--grey-800);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  font-size: 22px;
+}
+
+.actions {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 7px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--grey-800);
+  color: var(--grey-300);
+  transition: transform .2s;
+}
+
+.actions button svg {
+  width: 20px;
+}
+
+.actions button:hover {
+  background-color: var(--grey-700);
+  transform: translateY(-4px);
+}
+
+.search {
+  background-color: var(--grey-800);
+  padding: 10px;
+}
+
+.search form input {
+  background-color: var(--grey-700);
+  width: 100%;
+  display: block;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+}
+
+.search input:focus {
+  outline: 1px solid var(--grey-300);
+}
